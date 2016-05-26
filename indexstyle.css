@@ -3,7 +3,7 @@
 h1 {
 	color: #505050;
 	font: Sans-Serif;
-	font-family: Century, trebuchet, Helvetica, sans-serif;
+	font-family: century, trebuchet, Helvetica, sans-serif;
 }
 
 body{
@@ -16,7 +16,7 @@ div.Content {
 	font-size: 200%;
 	list-style-type: none;
 	font: Sans-Serif;
-	font-family: Century, trebuchet, Helvetica, sans-serif;
+	font-family: century, trebuchet, Helvetica, sans-serif;
 }
 
 
@@ -24,5 +24,5 @@ div.Content {
 div.BottomBox{
 	color: #505050;
 	list-style-type: none;
-    font-family: trebuchet, Helvetica, sans-serif;
+    font-family: century, trebuchet, Helvetica, sans-serif;
 }
