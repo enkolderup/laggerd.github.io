@@ -1,31 +1,22 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title> Evan Kolderup's website</title>
-  <link rel="stylesheet" href="indexstyle.css">
-</head>
-<body>
-<div>
-  <h1> Evan Kolderup</h1>
-  
-  <div class=Content>
-	<ul.Content>
-		<li> >About Me</li>
-		<li> >Data</li>
-		<li> >Photography</li>
-	</ul>
-  </div>
- 
- 
-  <div class=BottomBox>
-	
-	<ul.BottomBox>
-		<li><h3>Contact Me<h3></li>
-		<li> Email: enkolderup@gmail.com</li>
-		<li> Mailing Adress: 16330 Lavender Ln. Los Gatos, Ca 95032</li>
-	</ul>
-   </div>
-   </div>
-</body>
+<!-- Replace your-device-ID-goes-here with your actual device ID
+and replace your-access-token-goes-here with your actual access token-->
+<!DOCTYPE>
+<html>
+  <body>
+  <center>
+  <br>
+  <br>
+  <br>
+  <form action="https://api.particle.io/v1/devices/2d0037001847353236343033/led?access_token=7794718b794c1e869b1574cb749345d6823f48ca" method="POST">
+    Tell your device what to do!<br>
+    <br>
+    <input type="radio" name="arg" value="on">Turn the LED on.
+    <br>
+    <input type="radio" name="arg" value="off">Turn the LED off.
+    <br>
+    <br>
+    <input type="submit" value="Do it!">
+  </form>
+  </center>
+  </body>
 </html>
